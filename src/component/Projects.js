@@ -56,7 +56,7 @@ class Projects extends Component {
 
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={types} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -79,7 +79,7 @@ class Projects extends Component {
 
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={newss} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -103,7 +103,7 @@ class Projects extends Component {
 
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={onus} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -124,7 +124,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={ecom} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -146,7 +146,7 @@ class Projects extends Component {
 
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={inf} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -167,7 +167,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={leader} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -188,7 +188,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={traill} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -209,7 +209,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={dona} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -230,7 +230,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={conv} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -251,7 +251,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={eduu} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -272,7 +272,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={nike} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -293,7 +293,7 @@ class Projects extends Component {
       </div>
 
 
-      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+      <div className="card w-94 ml-5  mt-5 border wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={food} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
