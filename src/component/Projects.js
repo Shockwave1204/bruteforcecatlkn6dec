@@ -5,7 +5,15 @@ import web3 from '../web3.png';
 import web4 from '../web4.png';
 import bank from '../web2.png';
 import onus from '../onus.png';
+import inf from '../inf.png'
+import nike from '../nike.png'
+import eduu from '../eduu.png'
+import conv from '../conv.png'
+import dona from '../dona.png'
+import traill from '../trail.png'
+import ecom from '../ecom.png';
 import newss from '../newss.png';
+import leader from '../lead.png'
 import types from '../type.png';
 
 // Import WOW from wowjs
@@ -32,7 +40,7 @@ class Projects extends Component {
         </h2>
         <div className='flex gap-1'>
          <a href="https://doctors-portal-d93d4.web.app/" className='btn btn-sm'>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/AlphaCare" className='btn btn-sm'>github code <BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/AlphaCare" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">React</div>
@@ -103,7 +111,28 @@ class Projects extends Component {
          </h2>
         <div className='flex gap-1'>
          <a href="https://dapper-lokum-0330d4.netlify.app/" className='btn btn-sm'>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm'>github code <BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={ecom} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         Ecommerce - Front-end
+         </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/panda-commerce/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -118,6 +147,153 @@ class Projects extends Component {
 
 
       <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={inf} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         Influencer Gear
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/influencer-gear/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={leader} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         LeaderBoard Site
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/influencer-gear/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={traill} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         WorldCup
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/world-cup/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={dona} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         DonateToday
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/donate-today-repo/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={conv} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         Convention Center
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/convention-center/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={eduu} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         ProEdu 
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/Pro-Edu/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
+       <figure><img src={nike} alt="Shoes" /></figure>
+       <div className="card-body">
+        <h2 className="card-title">
+         Nike React
+        </h2>
+        <div className='flex gap-1'>
+         <a href="https://likhon15.github.io/nike-react/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+        </div>
+        <div className="card-actions justify-end">
+         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
+         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
+         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
+        </div>
+       </div>
+      </div>
+
+
+      <div className="card w-94 ml-5  mt-5 border wow rollIn" data-wow-duration="1s" data-wow-delay="1s">
        <figure><img src={food} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
@@ -125,7 +301,7 @@ class Projects extends Component {
         </h2>
         <div className='flex gap-1'>
          <a href="https://food-search-rest-api-project.vercel.app/" className='btn btn-sm'>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm'>github code <BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -145,7 +321,7 @@ class Projects extends Component {
         </h2>
         <div className='flex gap-1'>
          <a href="https://bank-project-two.vercel.app/" className='btn btn-sm'>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/bank-project" className='btn btn-sm'>github code<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/bank-project" className='btn btn-sm' disabled>github code<BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-orange-500 shadow-lg shadow-orange-500/50 text-white">Html</div>
