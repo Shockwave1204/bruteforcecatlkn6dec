@@ -12,10 +12,13 @@ import tail from '../tail.png'
 import express from '../es.png'
 import socket from '../sc.png'
 import rest from '../rest.png'
+import ana from '../anaconda.png'
+import vs from '../vscode.png'
 import router from '../router.png'
 import ssl from '../ssl.png'
 import jss from '../js.png'
 import mailgun from '../mailgun.png'
+import post from '../post.png'
 import ES from '../es6.png'
 import mys from '../mys.png'
 import supa from '../supa.png'
@@ -29,6 +32,15 @@ import material from '../material.svg'
 import bs from '../bs.png'
 import str from '../stripe.png'
 import nodemailer from '../nodemailer.webp'
+
+
+import ij from '../ij.png'
+import py from '../pycharm.png'
+import subb from '../sublime.png'
+import cb from '../codeblocks.png'
+import an from '../android.png'
+
+
 const Skills = () => {
  return (
   <div className='max-w-[1440px] mx-auto mt-[150px] ' id='skills'>
@@ -208,6 +220,7 @@ const Skills = () => {
 
 
    <br />
+
    <div>
     <h1 className='text-3xl mb-10'>Backend</h1>
     <Marquee
@@ -343,6 +356,118 @@ const Skills = () => {
      </div>
     </Marquee>
    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+   <br />
+   
+   <div>
+    <h1 className='text-3xl mb-10'>Tools</h1>
+    <Marquee
+     direction='left'
+     speed={10}
+    >
+     <div className='flex gap-5'>
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '15px'
+         }} src={vs} alt="" />VsCode
+        </h2>
+       </div>
+      </div>
+
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={subb} alt="" />Sublime
+        </h2>
+       </div>
+      </div>
+
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={py} alt="" />Pycharm
+        </h2>
+       </div>
+      </div>
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={cb} alt="" />CodeBlocks
+        </h2>
+       </div>
+      </div>
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={an} alt="" />AndroidStd
+        </h2>
+       </div>
+      </div>
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={ana} alt="" />Anaconda
+        </h2>
+       </div>
+      </div>
+
+      <div className="card image-full mr-5">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={post} alt="" />Postman
+        </h2>
+       </div>
+      </div>
+      
+
+     </div>
+    </Marquee>
+   </div>
+
+
+
+
+
+
+
+
+
+
   </div>
  );
 };
