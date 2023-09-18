@@ -174,8 +174,8 @@ class Projects extends Component {
          LeaderBoard Site
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/influencer-gear/" className='btn btn-sm'>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/leader-board-css3/" className='btn btn-sm'>live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
