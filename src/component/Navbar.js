@@ -115,9 +115,9 @@ const Navbar = () => {
           alignItems: 'center',
           justifyContent: 'center',
         }}
-        className={`fixed bottom-5 right-5 bg-${theme === 'synthwave' ? 'gray-900' : 'white'} bg-opacity-80 backdrop-blur-[0.5rem] 
+        className={`fixed bottom-5 right-5 bg-${theme === 'synthwave' ? 'gray-900' : 'gray-100'} text-${theme === 'synthwave' ? 'white' : 'gray-900'} bg-opacity-80 backdrop-blur-[0.5rem] 
   border border-white border-opacity-40 transparent shadow-2xl rounded-full 
-  hover:scale-[1.15] active:scale-105 transition-all bg-blue-500 rounded-full`}
+  hover:scale-[1.15] active:scale-105 transition-all  rounded-full`}
       >
         <a href="">
           <label className="swap swap-rotate justify-center">
