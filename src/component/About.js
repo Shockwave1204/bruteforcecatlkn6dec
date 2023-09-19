@@ -32,7 +32,7 @@ class About extends Component {
         showArrows={false}
         showStatus={false}
         showThumbs={false}
-        className="max-w-[600px] custom-carousel wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"
+        className="max-w-[600px] custom-carousel wow fadeIn" data-wow-duration="0.3s" data-wow-delay="0.3s"
         styless
        >
         <div className="avatar m-8 ">
