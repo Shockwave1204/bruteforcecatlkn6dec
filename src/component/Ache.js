@@ -151,15 +151,17 @@ const Ache = () => {
 
          <div className="avatar">
           <div className="  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+           
            <img
             style={{
              width: '50px',
              height: '50px'
             }}
-            src={avatar} alt="Avatar" className="w-full h-full rounded-full" />
+            src={avatar} alt="Avatar" className="   w-full h-full rounded-full" />
           </div>
          </div>
         </div>
+        
         <div className="text-blue-300 text-2xl md:text-3xl lg:text-4xl font-bold mt-2">{rating}</div>
         <div className="text-gray-100 text-lg md:text-xl lg:text-2xl">{org}</div>
        </div>

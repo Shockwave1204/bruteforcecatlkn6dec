@@ -41,15 +41,125 @@ import cb from '../codeblocks.png'
 import an from '../android.png'
 
 
+
+
+
+import python from '../language/python.png'
+import cplusplus from '../language/c++.png'
+import cc from '../language/c.png'
+import jsds from '../language/js.png'
+import jav from '../language/Java.png'
+
+
+
+
 const Skills = () => {
  return (
   <div className='max-w-[1440px] mx-auto mt-[150px] ' id='skills'>
    <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-10 text-center'>Skills</h1>
+
+
+
+
+   <div>
+    <h1 className='text-3xl mb-10'>Programming Language</h1>
+    <Marquee
+     direction='right'
+     speed={10}
+    >
+     <div className='flex gap-5'>
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '15px'
+         }} src={python} alt="" />Python
+        </h2>
+       </div>
+      </div>
+
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={cplusplus} alt="" />C++
+        </h2>
+       </div>
+      </div>
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={cc} alt="" />C
+        </h2>
+       </div>
+      </div>
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={jsds} alt="" />JavaScript
+        </h2>
+       </div>
+      </div>
+
+
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={jav} alt="" />Java
+        </h2>
+       </div>
+      </div>
+
+
+      <div className="card image-full mr-5">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={typescript} alt="" />TypeScript
+        </h2>
+       </div>
+      </div>
+
+   
+
+     </div>
+    </Marquee>
+   </div>
+
+
+
+
+
+
+
+
+   <br />
    <div>
     <h1 className='text-3xl mb-10'>Frontend</h1>
     <Marquee
      speed={10}
     >
+
+
+
+
+
+
      <div className='flex gap-5'>
 
       <div className="card image-full">
@@ -369,7 +479,7 @@ const Skills = () => {
 
 
    <br />
-   
+
    <div>
     <h1 className='text-3xl mb-10'>Tools</h1>
     <Marquee
@@ -453,7 +563,7 @@ const Skills = () => {
         </h2>
        </div>
       </div>
-      
+
 
      </div>
     </Marquee>

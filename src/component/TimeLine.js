@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 const TimeLine = () => {
  return (
-  <div>
+  <div id="EWExp">
    <h1 className='text-5xl font-bold text-center mt-[150px] mb-[100px]'>Educational Qualification and Work Experiance</h1>
    <VerticalTimeline>
     <VerticalTimelineElement

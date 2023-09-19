@@ -9,24 +9,29 @@ import Ache from './component/Ache';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
 import TimeLine from './component/TimeLine';
+import Lang from './component/Lang';
 // import Stepper from './component/Stepper'; // You can import this if needed
 function App() {
-  
+
 
   return (
-    
-    <div className="app" >
-       
-       <Navbar /> 
-        <Banner />
-        <About/>
-        <Skills/>
-        <Projects/>
-        <TimeLine/>
-        <Ache/>
-        <Contact/>
-        <Footer/> 
-      </div>
+
+    <div className="app  bg-gradient-to-l from-indigo-500 ..." style={{
+      // Set the desired height for the container
+    }}
+
+    >
+      <Lang />
+      <Navbar />
+      <Banner />
+      <About />
+      <Skills />
+      <Projects />
+      <TimeLine />
+      <Ache />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

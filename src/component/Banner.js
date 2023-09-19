@@ -39,7 +39,7 @@ const HeroSection = () => {
       />
       <div className="flex mt-4">
        <button onClick={handleDownloadClick} className='btn btn-success mr-3 bg-green-500 shadow-lg shadow-green-500/50'><FiDownloadCloud /> Download Resume</button>
-       <button className='btn btn-primary bg-gray-200 shadow-lg shadow-gray-200/50'>Hire Me</button>
+       <button className='btn btn-primary bg-gray-100 shadow-lg shadow-gray-200/50 border-white'>Hire Me</button>
       </div>
      </div>
     </div>
@@ -47,7 +47,7 @@ const HeroSection = () => {
 
     </div>
     <div className='w-full md:w-1/2 mt-8 md:mt-0 lg:'>
-     <img src={mee} style={{
+     <img src={mees} style={{
       maxWidth: '600px'
      }} className="w-full " alt="Illustration" />
     </div>
