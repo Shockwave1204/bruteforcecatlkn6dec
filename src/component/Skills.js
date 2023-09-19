@@ -1,7 +1,6 @@
 // Skills.js
 import React from 'react';
 import Marquee from "react-fast-marquee";
-import REACT from '../reactJS.png'
 import firebasee from '../fr.png'
 import reactt from '../re.png'
 import reduxx from '../red.png'
