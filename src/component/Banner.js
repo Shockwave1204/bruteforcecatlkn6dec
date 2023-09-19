@@ -72,7 +72,7 @@ const HeroSection = () => {
 
     </div>
     <div className='w-full md:w-1/2 mt-8 md:mt-0 lg:'>
-     <img src={mees} style={{
+     <img src={mee} style={{
       maxWidth: '600px'
      }} className="w-full rounded-lg" alt="Illustration" />
     </div>
