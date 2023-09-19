@@ -13,10 +13,10 @@ import Lang from './component/Lang';
 // import Stepper from './component/Stepper'; // You can import this if needed
 function App() {
 
-
+ 
   return (
 
-    <div className="app  bg-gradient-to-l from-indigo-500 ..." style={{
+    <div className="app bg-gradient-to-l from-indigo-500 ..." style={{
       // Set the desired height for the container
     }}
 
