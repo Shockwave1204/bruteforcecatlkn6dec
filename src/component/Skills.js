@@ -390,6 +390,15 @@ const Skills = () => {
        </div>
       </div>
 
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={supa} alt="" />Supabase
+        </h2>
+       </div>
+      </div>
 
       <div className="card image-full">
        <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
@@ -421,6 +430,15 @@ const Skills = () => {
        </div>
       </div>
 
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '30px'
+         }} src={ssl} alt="" />SSlcommerz
+        </h2>
+       </div>
+      </div>
 
       <div className="card image-full">
        <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
