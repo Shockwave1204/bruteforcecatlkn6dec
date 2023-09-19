@@ -29,7 +29,7 @@ class Projects extends Component {
    <div>
     <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-center mt-[200px]'>Projects</h1>
     <div className='  max-w-[1450px] lg:ml-[90px]' id='projects'>
-     <div className='p-1 mr-5 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5'>
+     <div className='p-1 mr-5 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5 gap-5'>
       
       
       <div className="card w-94 ml-5 mt-5 border wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">

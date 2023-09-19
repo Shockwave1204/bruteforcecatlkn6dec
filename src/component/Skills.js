@@ -50,7 +50,8 @@ import cc from '../language/c.png'
 import jsds from '../language/js.png'
 import jav from '../language/Java.png'
 
-
+import algo from '../algo.png'
+import dsa from '../dsa.png'
 
 
 const Skills = () => {
@@ -62,7 +63,7 @@ const Skills = () => {
 
 
    <div>
-    <h1 className='text-3xl mb-10'>Programming Language</h1>
+    <h1 className='text-3xl mb-10'>Programming Language & others</h1>
     <Marquee
      direction='right'
      speed={10}
@@ -79,6 +80,25 @@ const Skills = () => {
        </div>
       </div>
 
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '15px'
+         }} src={algo} alt="" />Algorithm
+        </h2>
+       </div>
+      </div>
+
+      <div className="card image-full">
+       <div className="card-body w-[200px] text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+        <h2 className='card-title'>
+         <img style={{
+          width: '15px'
+         }} src={dsa} alt="" />DataStructure
+        </h2>
+       </div>
+      </div>
 
 
       <div className="card image-full">
