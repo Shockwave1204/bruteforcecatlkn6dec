@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import '../component/Footer.css';
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState(null);
   const [theme, setTheme] = useState(
@@ -107,7 +107,7 @@ const Navbar = () => {
           alignItems: 'center',
           justifyContent: 'center',
         }}
-        className={`fixed bottom-5 right-5 bg-gray-900 text-white
+        className={`home-sci fixed bottom-5 right-5 bg-gray-900 text-white
   border border-white border-opacity-40 shadow-2xl rounded-full 
   hover:scale-[1.15] active:scale-105 transition-all  rounded-full`}
       >
