@@ -39,8 +39,8 @@ class Projects extends Component {
          AlphaCare - Portal Site
         </h2>
         <div className='flex gap-1'>
-         <a href="https://doctors-portal-d93d4.web.app/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/AlphaCare" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://doctors-portal-d93d4.web.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/AlphaCare" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">React</div>
@@ -63,8 +63,8 @@ class Projects extends Component {
          SpeedTyper
         </h2>
         <div className='flex gap-1'>
-         <a href="https://verdant-starship-15894b.netlify.app/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://verdant-starship-15894b.netlify.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -86,8 +86,8 @@ class Projects extends Component {
          News24_Hours
         </h2>
         <div className='flex gap-1'>
-         <a href="https://beautiful-meerkat-18be58.netlify.app/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://beautiful-meerkat-18be58.netlify.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -110,8 +110,8 @@ class Projects extends Component {
          OnusthanBazar.com
          </h2>
         <div className='flex gap-1'>
-         <a href="https://dapper-lokum-0330d4.netlify.app/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://dapper-lokum-0330d4.netlify.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -131,8 +131,8 @@ class Projects extends Component {
          Ecommerce - Front-end
          </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/panda-commerce/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/panda-commerce/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -153,8 +153,8 @@ class Projects extends Component {
          Influencer Gear
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/influencer-gear/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/influencer-gear/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -174,8 +174,8 @@ class Projects extends Component {
          LeaderBoard Site
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/leader-board-css3/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/leader-board-css3/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -195,8 +195,8 @@ class Projects extends Component {
          WorldCup
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/world-cup/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/world-cup/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -216,8 +216,8 @@ class Projects extends Component {
          DonateToday
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/donate-today-repo/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/donate-today-repo/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -237,8 +237,8 @@ class Projects extends Component {
          Convention Center
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/convention-center/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/convention-center/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -258,8 +258,8 @@ class Projects extends Component {
          ProEdu 
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/Pro-Edu/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/Pro-Edu/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -279,8 +279,8 @@ class Projects extends Component {
          Nike React
         </h2>
         <div className='flex gap-1'>
-         <a href="https://likhon15.github.io/nike-react/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://likhon15.github.io/nike-react/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -300,8 +300,8 @@ class Projects extends Component {
          Food Search By Input Field
         </h2>
         <div className='flex gap-1'>
-         <a href="https://food-search-rest-api-project.vercel.app/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' disabled>github code <BsLink45Deg /></a>
+         <a href="https://food-search-rest-api-project.vercel.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
@@ -320,8 +320,8 @@ class Projects extends Component {
          Normal Bank Project - JS DOM
         </h2>
         <div className='flex gap-1'>
-         <a href="https://bank-project-two.vercel.app/" className='btn btn-sm' disabled>live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/bank-project" className='btn btn-sm' disabled>github code<BsLink45Deg /></a>
+         <a href="https://bank-project-two.vercel.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
+         <a href="https://github.com/likhon15/bank-project" className='btn btn-sm' id="">github code<BsLink45Deg /></a>
         </div>
         <div className="card-actions justify-end">
          <div className="badge badge-outline bg-orange-500 shadow-lg shadow-orange-500/50 text-white">Html</div>
