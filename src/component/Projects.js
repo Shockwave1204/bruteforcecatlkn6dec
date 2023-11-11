@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BsLink45Deg } from 'react-icons/bs';
 import food from '../web.png';
 import web3 from '../web3.png';
-import web4 from '../web4.png';
 import bank from '../web2.png';
 import onus from '../onus.png';
 import inf from '../inf.png'
@@ -33,7 +32,7 @@ class Projects extends Component {
       
       
       <div className="card w-94 ml-5 mt-5 border wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s">
-       <figure><img src={web4} alt="Shoes" /></figure>
+       <figure><img src={web3} alt="Shoes" /></figure>
        <div className="card-body">
         <h2 className="card-title">
          AlphaCare - Portal Site
@@ -56,25 +55,7 @@ class Projects extends Component {
 
 
 
-      <div className="card w-94 ml-5  mt-5 border wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
-       <figure><img src={types} alt="Shoes" /></figure>
-       <div className="card-body">
-        <h2 className="card-title">
-         SpeedTyper
-        </h2>
-        <div className='flex gap-1'>
-         <a href="https://verdant-starship-15894b.netlify.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
-        </div>
-        <div className="card-actions justify-end">
-         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
-         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
-         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
-         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
-         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
-        </div>
-       </div>
-      </div>
+      
 
 
 
@@ -103,25 +84,7 @@ class Projects extends Component {
 
 
 
-      <div className="card w-94 ml-5  mt-5 border wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s">
-       <figure><img src={onus} alt="Shoes" /></figure>
-       <div className="card-body">
-        <h2 className="card-title">
-         OnusthanBazar.com
-         </h2>
-        <div className='flex gap-1'>
-         <a href="https://dapper-lokum-0330d4.netlify.app/" className='btn btn-sm' id="">live<BsLink45Deg /></a>
-         <a href="https://github.com/likhon15/Food-Search-REST-api-project" className='btn btn-sm' id="">github code <BsLink45Deg /></a>
-        </div>
-        <div className="card-actions justify-end">
-         <div className="badge badge-outline bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Html</div>
-         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">CSS</div>
-         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">Bootstrap</div>
-         <div className="badge badge-outline bg-yellow-500 shadow-lg shadow-yellow-500/50 text-white">JavaScript</div>
-         <div className="badge badge-outline bg-blue-500 shadow-lg shadow-blue-500/50 text-white">RestApi</div>
-        </div>
-       </div>
-      </div>
+     
 
 
       <div className="card w-94 ml-5  mt-5 border wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">

@@ -3,7 +3,7 @@ import '../component/Footer.css';
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState(null);
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "synthwave"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "syenthwave"
   );
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -44,7 +44,7 @@ const Navbar = () => {
   };
 
   const handleToggle = (e) => {
-    const newTheme = e.target.checked ? "cupcake" : "synthwave";
+    const newTheme = e.target.checked ? "cyberpunk" : "synthwave";
     setTheme(newTheme);
     // Set the data-theme attribute immediately based on the updated theme
     document.querySelector("html").setAttribute("data-theme", newTheme);
